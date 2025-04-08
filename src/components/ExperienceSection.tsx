@@ -117,7 +117,6 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience, isFirst }) 
         <div className="mb-4">
           <div className="flex flex-wrap justify-between gap-2">
             <h3 className="text-xl font-semibold">{experience.role}</h3>
-            {isFirst && <Badge className="bg-accent text-white hover:bg-accent/90">Current</Badge>}
           </div>
           <h4 className="text-lg font-medium text-primary">{experience.company}</h4>
           <div className="text-sm text-muted-foreground mt-1">
