@@ -11,6 +11,7 @@ const Navbar = () => {
     { name: 'About', href: '#about' },
     { name: 'Experience', href: '#experience' },
     { name: 'Skills', href: '#skills' },
+    { name: 'Projects', href: '#projects' },
     { name: 'Education', href: '#education' },
     { name: 'Contact', href: '#contact' },
   ];
@@ -31,7 +32,7 @@ const Navbar = () => {
         </a>
         
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex space-x-6">
+        <nav className="hidden md:flex items-center space-x-6">
           {navigationItems.map((item) => (
             <a
               key={item.name}
@@ -41,8 +42,12 @@ const Navbar = () => {
               {item.name}
             </a>
           ))}
-          <Button asChild>
-            <a href="#contact" className="bg-accent hover:bg-accent/90 text-white">
+          <Button 
+            asChild 
+            variant="default" 
+            className="ml-2"
+          >
+            <a href="#contact">
               Contact Me
             </a>
           </Button>
@@ -71,10 +76,13 @@ const Navbar = () => {
                 {item.name}
               </a>
             ))}
-            <Button asChild>
+            <Button 
+              asChild 
+              variant="default" 
+              className="w-full"
+            >
               <a 
                 href="#contact" 
-                className="bg-accent hover:bg-accent/90 text-white w-full"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Contact Me
