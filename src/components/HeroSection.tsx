@@ -12,7 +12,8 @@ const HeroSection = () => {
               Pushkar Agnihotri
             </h1>
             <h2 className="text-xl md:text-2xl text-muted-foreground">
-              Software Engineer | Android, Kotlin, Backend | AI & Cloud Enthusiast
+              Software Engineer Android | Kotlin, Java, Python | 
+              Backend, AI & Cloud Enthusiast
             </h2>
             <div className="h-1 w-20 bg-accent"></div>
             <p className="text-lg max-w-2xl">
@@ -28,7 +29,9 @@ const HeroSection = () => {
                 </a>
               </Button>
               <Button variant="outline" className="border-white">
-                <Download className="mr-2 h-4 w-4" /> Resume
+              <Download className="mr-2 h-4 w-4"/>
+              <a target="_blank" href="/PushkarAgnihotri-Android.pdf">
+                Resume</a>
               </Button>
             </div>
           </div>

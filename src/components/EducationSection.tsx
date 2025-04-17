@@ -29,8 +29,8 @@ const EducationSection: React.FC = () => {
   return (
     <section id="education" className="py-20 bg-muted/10">
       <div className="container">
-        <h2 className="section-title">Education & <span className="text-primary">Qualifications</span></h2>
-        <p className="section-subtitle">My academic journey in computer science</p>
+        <h2 className="section-title text-center">Education & <span className="text-primary">Qualifications</span></h2>
+        <p className="section-subtitle text-center">My academic journey in computer science</p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {educationData.map((edu, index) => (
