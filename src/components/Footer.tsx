@@ -37,7 +37,9 @@ const Footer = () => {
                 <Linkedin className="h-5 w-5" />
               </a>
               <a 
-                href="#"
+                href="https://github.com/Push1413"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="p-2 rounded-full bg-muted/30 hover:bg-primary/20 transition-colors"
                 aria-label="GitHub"
               >

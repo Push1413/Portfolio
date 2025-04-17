@@ -9,27 +9,27 @@ const ProjectsSection = () => {
       id: 1,
       title: "Anime App",
       description: "MVVM Jetpack Compose App using Ktor and Koin.",
-      image: "/lovable-uploads/1dcde3ec-f650-40f7-9acd-0d2e94735230.png",
+      image: "/Anime.png",
       linkText: "Analyze the code",
-      linkUrl: "#",
+      linkUrl: "https://github.com/Push1413/AnimeApp",
       icon: <Tv className="h-5 w-5" />
     },
     {
       id: 2,
       title: "LamaEstate Website",
       description: "A Real Estate Apartment MERN website.",
-      image: "/lovable-uploads/1dcde3ec-f650-40f7-9acd-0d2e94735230.png",
+      image: "/RentalHome.png",
       linkText: "Inspect the code",
-      linkUrl: "#",
+      linkUrl: "https://github.com/Push1413/MERN-HomeRentalApp",
       icon: <Home className="h-5 w-5" />
     },
     {
       id: 3,
       title: "Rick & Morty App",
       description: "Multi-module MVVM Jetpack Compose App.",
-      image: "/lovable-uploads/1dcde3ec-f650-40f7-9acd-0d2e94735230.png",
+      image: "/Morty.png",
       linkText: "Dive into the code",
-      linkUrl: "#",
+      linkUrl: "https://github.com/Push1413/MortyApp",
       icon: <Code className="h-5 w-5" />
     }
   ];
@@ -37,7 +37,7 @@ const ProjectsSection = () => {
   return (
     <section id="projects" className="bg-muted/20">
       <div className="container">
-        <h2 className="section-title text-center">Personal Projects</h2>
+        <h2 className="section-title text-center">Personal <span className="text-primary">Projects</span></h2>
         <p className="section-subtitle text-center">Some of the projects I've worked on in my spare time</p>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
